@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Maintenance Requests"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- In Progress -->
+        <TextView
+            android:text="Street Light Not Working\nStatus: In Progress"
+            android:textColor="#FFA500"
+            android:background="#EEEEEE"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Pending -->
+        <TextView
+            android:text="Water Leakage\nStatus: Pending"
+            android:textColor="#FF0000"
+            android:background="#EEEEEE"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Completed -->
+        <TextView
+            android:text="Road Repair\nStatus: Completed"
+            android:textColor="#008000"
+            android:background="#EEEEEE"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>

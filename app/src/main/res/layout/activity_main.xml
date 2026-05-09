@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- APP NAME -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GramaAngana"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#6A1B9A"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"/>
+
+
+        <!-- WELCOME TEXT -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome!"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#6A1B9A"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manage your community services easily"
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="35dp"/>
+
+
+        <!-- FIRST ROW -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <!-- CALENDAR -->
+
+            <Button
+                android:id="@+id/btnCalendar"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="Calendar"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#7E57C2"
+                android:layout_margin="10dp"/>
+
+
+            <!-- BOOKING -->
+
+            <Button
+                android:id="@+id/btnBooking"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="Booking"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#2ECC71"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+
+        <!-- SECOND ROW -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+            <!-- MAINTENANCE -->
+
+            <Button
+                android:id="@+id/btnMaintenance"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="Maintenance"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FF9800"
+                android:layout_margin="10dp"/>
+
+
+            <!-- EVENTS -->
+
+            <Button
+                android:id="@+id/btnEvents"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="Events"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#2196F3"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
